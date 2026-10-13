@@ -22,7 +22,7 @@ Then open http://localhost:4321.
 
 1. Push this folder to a public GitHub repo named `animus-site`.
 2. In Vercel, choose **Add New > Project**, import the repo, keep Framework Preset **Other**, no build command, and deploy.
-3. The site goes live at `https://animus-site.vercel.app`. If Vercel gives you a different domain, replace `https://animus-site.vercel.app` in the `<head>` of every `index.html` (canonical and Open Graph tags).
+3. The site is live at `https://animus-site-two.vercel.app` (`animus-site.vercel.app` was already taken by an unrelated site). If the domain ever changes, replace it in the `<head>` of every `index.html` (canonical and Open Graph tags).
 
 `vercel.json` turns on trailing slashes, so `/privacy` redirects to `/privacy/`.
 
